@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Reddit_Mono } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -8,6 +8,10 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+const redditMono = Reddit_Mono({
+  variable: "--font-reddit-mono",
   subsets: ["latin"],
 });
 
@@ -20,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable}  ${redditMono.variable} antialiased`}
       >
         {children}
       </body>

@@ -9,7 +9,7 @@ import Exclaim from "@/public/images/assets/exclaim.png";
 
 export default function Hero() {
   return (
-    <main className="">
+    <main className="font-[family-name:var(--font-reddit-mono)]">
       <div className="relative flex justify-center my-52">
         <Image src={Felt} alt="" className="absolute z-50 -top-96 w-full" />
         <div className="absolute z-10 w-4/12">
