@@ -26,7 +26,7 @@ export default function Navbar() {
       "
       >
         <a href="/" className="">
-          <Image src={Icon} alt="home" className="w-16"/>
+          <Image src={Icon} alt="home" className="w-16 opacity-[95%]"/>
         </a>
         <div className="flex justify-between items-center gap-4 opacity-[80]">
           {/* <a className="" onClick={() => ScrollToSection(works)}>works</a>

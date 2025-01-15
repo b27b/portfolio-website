@@ -9,7 +9,7 @@ export default function Card({ title, descrip, tools, project }) {
     flex flex-col gap-4  shadow-2xl
     font-[family-name:var(--font-reddit-mono)]"
     >
-      <Image src={Star} alt="" className="h-72 w-auto" />
+      <Image src={Star} alt="" className="h-72 w-auto opacity-0" />
       <div className="flex flex-col gap-3 h-32">
         <h2 className="font-semibold text-2xl">{title}</h2>
         <p className="">{descrip}</p>
