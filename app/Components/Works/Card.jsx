@@ -6,7 +6,7 @@ export default function Card({ title, descrip, tools, project }) {
     <a
       href="/"
       className="bg-[url('/images/backgrounds/felt-texture2.png')] px-12 py-6 rounded-lg 
-    flex flex-col gap-4
+    flex flex-col gap-4 z-50 shadow-2xl
     font-[family-name:var(--font-reddit-mono)]"
     >
       <Image src={Star} alt="" className="h-72 w-auto" />
@@ -18,7 +18,7 @@ export default function Card({ title, descrip, tools, project }) {
         {tools.map((skill, index) => (
           <li
             key={index}
-            className="bg-maincolour text-lightcolour px-4 py-2 rounded-full"
+            className="bg-maincolour text-lightcolour px-4 py-2 rounded-full bg-[url('/images/backgrounds/felt-texture.png')] bg-no-repeat bg-cover"
           >
             {skill}
           </li>
