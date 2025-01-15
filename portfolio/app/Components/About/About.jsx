@@ -13,7 +13,7 @@ export default function About() {
         <Image src={Header} className="z-30 h-40 w-auto mb-6" alt="About Me" />
         <section className="grid grid-flow-row gap-4 ">
           <h3 className="font-medium text-2xl">
-            I’m Kathy, a systems design engineering student at the University of
+            I’m Kathy, a Systems Design Engineering student at the University of
             Waterloo.
           </h3>
           <p>
