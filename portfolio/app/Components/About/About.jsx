@@ -4,6 +4,8 @@ import Button from "@/public/images/assets/button-back.png";
 import Star1 from "@/public/images/assets/about-star1.png";
 import Star2 from "@/public/images/assets/about-star2.png";
 
+
+
 export default function About() {
   return (
     <section className="mx-24 font-[family-name:var(--font-reddit-mono)] grid grid-cols-2 gap-24">
@@ -24,7 +26,7 @@ export default function About() {
             href="https://drive.google.com/file/d/1nWXps5Bt0V0rjk2kSD9ZC8ZGfVOMAEa8/view?usp=sharing"
             target="_blank"
             className="bg-[url('/images/assets/button-back.png')] bg-contain bg-no-repeat bg-center 
-            w-fit px-12 py-6 z-50
+            w-fit px-12 py-6 
             text-lightcolour text-xl"
           >
             Resume

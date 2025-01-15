@@ -1,0 +1,11 @@
+
+
+:root {
+  overflow-x: hidden;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+
+  background: url("../public/images/backgrounds/felt-texture.png"), #7790ed;
+}

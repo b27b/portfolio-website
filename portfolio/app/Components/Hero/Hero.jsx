@@ -12,7 +12,7 @@ export default function Hero() {
     <main className="font-[family-name:var(--font-reddit-mono)] h-[450px]">
       <div className="relative">
         <div className="flex justify-center mt-48">
-          <Image src={Felt} alt="" className="absolute z-40 -top-96 w-screen h-[200rem]" />
+          {/* <Image src={Felt} alt="" className="absolute z-40 -top-96 w-screen h-[200rem]" /> */}
           <div className="absolute z-10 w-3/12">
             <Image src={Character} alt="character" className="relative" />
             <Image

@@ -6,7 +6,7 @@ export default function Card({ title, descrip, tools, project }) {
     <a
       href="/"
       className="bg-[url('/images/backgrounds/felt-texture2.png')] px-12 py-6 rounded-lg 
-    flex flex-col gap-4 z-50 shadow-2xl
+    flex flex-col gap-4  shadow-2xl
     font-[family-name:var(--font-reddit-mono)]"
     >
       <Image src={Star} alt="" className="h-72 w-auto" />
