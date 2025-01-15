@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Header from "@/public/images/assets/about-title.png";
 import Button from "@/public/images/assets/button-back.png";
+import Profile from "@/public/images/assets/profile.png";
 import Star1 from "@/public/images/assets/about-star1.png";
 import Star2 from "@/public/images/assets/about-star2.png";
-
-
 
 export default function About() {
   return (
@@ -16,12 +15,7 @@ export default function About() {
             I’m Kathy, a Systems Design Engineering student at the University of
             Waterloo.
           </h3>
-          <p>
-            Something will be here and go into more detail about things. I think
-            it will say more things also I think twitter. Something will be here
-            and go into more detail about things. I think it will say more
-            things also I think twitter{" "}
-          </p>
+          <p> </p>
           <a
             href="https://drive.google.com/file/d/1nWXps5Bt0V0rjk2kSD9ZC8ZGfVOMAEa8/view?usp=sharing"
             target="_blank"
@@ -43,7 +37,7 @@ export default function About() {
           className="absolute w-44 -top-12 -right-40 opacity-70"
         />
       </div>
-      <Image src={Button} alt="" className="m-auto" />
+      <Image src={Profile} alt="" className="m-auto w-[30rem]" />
     </section>
   );
 }

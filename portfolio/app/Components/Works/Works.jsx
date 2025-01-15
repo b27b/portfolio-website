@@ -7,7 +7,7 @@ import StarDark2 from "@/public/images/assets/star2-dark.png"
 
 export default function Works(){
     return(
-        <main className=" bg-[url('/images/backgrounds/works-bck.png')] bg-contain bg-no-repeat my-12 h-[110vw]">
+        <main className=" bg-[url('/images/backgrounds/works-bck.png')] bg-contain bg-no-repeat my-12 h-[110vw]" >
             <div className="grid grid-flow-row grid-row-2 justify-center gap-24">
             <Image src={Header} alt="My Works" className="mt-96 mx-auto z-30 h-48 w-auto "/>
             {/* <Image src={StarDark1} alt="" className="absolute right-60 -bottom-[35rem]"/>
